@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+		integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./style.css/style.css">
+	<title>Layout</title>
+</head>
+
+<body>
+	<div class="container">
+		<header class="header">
+			<div class="logo">KG Shop</div>
+			<nav class="navigation">
+				<a href=""> <i class="fas fa-home"></i>Home</a>
+				<a href=""> <i class="fas fa-gamepad"></i>Games</a>
+				<a href=""> <i class="fas fa-store"></i>Store</a>
+				<a href=""> <i class="far fa-newspaper"></i> New</a>
+				<!--<a href="">Link5</a>-->
+			</nav>
+			<button class="exit-login"><i class="fas fa-door-open"></i> Login</button>
+		</header>
+		<div class="content">
+			<p class="new-g">Latest Sales</p>
+			<div class="cards">
+				<i class="fas fa-chevron-circle-left"></i>
+				<div class="card">
+					<a href="#"><img class="Witcher" src="./img/TheWitcher3.jpg"></a>
+					<span class="game_text">The Witcher 3</span>
+				</div>
+				<div class="card">
+					<a href="#"><img class="cyberpunk" src="./img/Cyberpunk2077.jpg"></a>
+					<span class="game_text">Cyberpunk 2077</span>
+				</div>
+				<div class="card">
+					<a href="#"><img class="reddead" src="./img/RedDeadRedemtion2.jpg"></a>
+					<span class="game_text">Red Dead Redemtion 2</span>
+				</div>
+				<div class="card">
+					<a href="#"><img class="darksouls3" src="./img/DarkSouls3.jpg"></a>
+					<span class="game_text">Dark Souls 3</span>
+				</div>
+				<div class="card">
+					<a href="#"><img class="fallout4" src="./img/Fallout4GOTY.jpg"></a>
+					<span class="game_text">Fallout 4</span>
+				</div>
+				<i class="fas fa-chevron-circle-right"></i>
+			</div>
+		</div>
+
+		<div class="main">
+			<div class="leftside">
+				<div class="leftside_top">
+					<div class="leftside__header">CATALOG</div>
+					<ul class="leftside__list">
+						<li>Assassin's creed</li>
+						<li>Battlefield</li>
+						<li>Call of Duty</li>
+						<li>Need for Speed</li>
+						<li>Tom Clancy's</li>
+						<li>Splinter Cell</li>
+						<li>Forza Horizon</li>
+						<li>The Elder Scrolls</li>
+					</ul>
+				</div>
+				<div class="leftside_botom">
+					<div class="leftside__header">CATEGORY</div>
+					<div class="leftside__list">
+						<input class="category" type="checkbox" name="category"> Zombie <i class="fas fa-biohazard"></i> <br>
+						<input class="category" type="checkbox" name="category"> Race <i class="fas fa-flag-checkered"></i>
+						<br>
+						<input class="category" type="checkbox" name="category"> Simulator<i class="fas fa-glasses"></i> <br>
+						<input class="category" type="checkbox" name="category"> Open World <i
+							class="fas fa-globe-americas"></i> <br>
+						<input class="category" type="checkbox" name="category"> Survival <i
+							class="fas fa-drumstick-bite"></i> <br>
+					</div>
+				</div>
+			</div>
+			<div class="rightside">
+				<div class="navigation-panel">
+					<form action="#">
+						<div class="search">
+							<i class="fas fa-search"></i>
+							<input class="search_input" type="text">
+						</div>
+					</form>
+					<form action="#">
+						<div class="value">
+							<i class="fas fa-dollar-sign"></i>
+							<input class="value_input" type="number" min="1">
+						</div>
+					</form>
+				</div>
+				<div class="games">
+					<div class="games__topline">
+						<div class="game">
+							<div class="game-front">
+								<img src="./img/Gta5.jpg" alt="">
+							</div>
+							<div class="game-back">
+								Grand Theft Auto V — мультиплатформенная компьютерная игра в жанре action-adventure с открытым
+								миром, разработанная компанией Rockstar North и изданная компанией Rockstar <br> <p>Дата выпуска: 17 сентября 2013г.</p> 
+							</div>
+						</div>
+						<div class="game">
+							<div class="game-front">
+								<img src="./img/Metro Exodus.jpg" alt="">
+							</div>
+							<div class="game-back">
+								Metro Exodus — компьютерная игра в жанре шутера от первого лица, разработанная украинской компанией 4A Games и изданная Deep Silver. Выход игры состоялся 15 февраля 2019 года для игровых платформ ПК, PlayStation 4 и Xbox One <br> <p>Дата выпуска: 15 февраля 2019г.</p> 
+							</div>
+						</div>
+						<div class="game">
+							<div class="game-front">
+								<img src="./img/valqala-main.jpg" alt="">
+							</div>
+							<div class="game-back">
+								Assassin’s Creed Valhalla — мультиплатформенная компьютерная игра в жанре action/RPG, разработанная студией Ubisoft Montreal под издательством компании Ubisoft. Является двенадцатой игрой в серии игр Assassin’s Creed. <br> <p>Дата выпуска: 10 ноября 2020г.</p> 
+							</div>
+						</div>
+						<div class="game">
+							<div class="game-front">
+								<img src="./img/RainbowSixSiege.jpg" alt="">
+							</div>
+							<div class="game-back">
+								Tom Clancy’s Rainbow Six Siege — тактический шутер от первого лица, разработанный Ubisoft для Microsoft Windows, Xbox One и PlayStation 4. Игра была анонсирована Ubisoft 9 июня 2014 на E3 и выпущена 1 декабря 2015 года. Проект стал преемником закрытого Patriots. <br> <p>Дата выпуска: 26 ноября 2015г.</p> 
+							</div>
+						</div>
+					</div>
+					<div class="games__bottomline">
+						<div class="game">
+							<div class="game-front">
+								<img src="./img/ResidentEvil8.jpg" alt="">
+							</div>
+							<div class="game-back">
+								Resident Evil Village — компьютерная игра в жанре survival horror. Часть серии Resident Evil и продолжение Resident Evil 7: Biohazard. В качестве разработчика и издателя игры выступает компания Capcom.<br> <p>Дата выпуска: 1 мая 2021г.</p> 
+							</div>
+						</div>
+						<div class="game">
+							<div class="game-front">
+								<img src="./img/AC4.jpg" alt="">
+							</div>
+							<div class="game-back">
+								Assassin’s Creed IV: Black Flag — мультиплатформенная компьютерная игра в жанре приключенческий боевик, разработанная компанией Ubisoft Montreal и изданная Ubisoft. Является шестой основной игрой в серии Assassin’s Creed.<br> <p>Дата выпуска: 29 октября 2013г.</p> 
+							</div>
+						</div>
+						<div class="game">
+							<div class="game-front">
+								<img src="./img/DoomEternal.jpg" alt="">
+							</div>
+							<div class="game-back">
+								Doom Eternal — компьютерная игра в жанре шутера от первого лица. Игра разработана студией id Software, а издателем выступила компания Bethesda Softworks. Анонс проекта состоялся в 2018 году на выставке E3. <br> <p>Дата выпуска: 20 марта 2020г.</p> 
+							</div>
+						</div>
+						<div class="game">
+							<div class="game-front">
+								<img src="./img/Skyrim.jpg" alt="">
+							</div>
+							<div class="game-back">
+								The Elder Scrolls V: Skyrim — мультиплатформенная компьютерная ролевая игра с открытым миром, разработанная студией Bethesda Game Studios и выпущенная компанией Bethesda Softworks. Это пятая часть в серии The Elder Scrolls. Игра была выпущена 11 ноября 2011 года для Windows, Playstation 3 и Xbox 360.<br> <p>Дата выпуска: 11 ноября 2011г.</p> 
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+		</div>
+
+		<footer class="footer">
+			<div class="footer-top">
+				<p><i class="fas fa-cogs"></i> Guaranteed technical support for your purchase</p>
+				<p><i class="fas fa-percent"></i> Regular promotions, discounts and bonuses</p>
+				<p><i class="fas fa-key"></i> License keys from official publishers</p>
+				<p><i class="fas fa-comments"></i> Positive feedback from real customers</p>
+			</div>
+			<div class="footer-down">
+			</div>
+		</footer>
+
+
+
+	</div>
+</body>
+
+</html>
